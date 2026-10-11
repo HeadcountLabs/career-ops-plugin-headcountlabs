@@ -1,6 +1,6 @@
 // @ts-check
 // career-ops-plugin-headcountlabs
-// License: MIT · https://github.com/charlie12520/career-ops-plugin-headcountlabs
+// License: MIT · https://github.com/headcountlabs/career-ops-plugin-headcountlabs
 // Guide: https://github.com/career-ops-hq/career-ops/blob/main/docs/PLUGINS.md
 //
 // Job search over the Headcount Labs jobs API: postings collected from ATS

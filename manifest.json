@@ -9,5 +9,5 @@
   "allowedHosts": ["api.headcountlabs.com"],
   "skill": "skill.md",
   "humanInTheLoop": true,
-  "homepage": "https://github.com/charlie12520/career-ops-plugin-headcountlabs"
+  "homepage": "https://github.com/headcountlabs/career-ops-plugin-headcountlabs"
 }

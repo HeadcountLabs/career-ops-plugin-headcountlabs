@@ -26,7 +26,7 @@ For companies you already track, the zero-key providers in career-ops read the e
 node plugins.mjs add headcountlabs
 
 # Before listing (install from this repo at a pinned commit):
-node plugins.mjs add charlie12520/career-ops-plugin-headcountlabs --sha <40-hex-commit>
+node plugins.mjs add headcountlabs/career-ops-plugin-headcountlabs --sha <40-hex-commit>
 ```
 
 Then enable it and record your consent:
