@@ -1,0 +1,13 @@
+{
+  "id": "headcountlabs",
+  "name": "career-ops-plugin-headcountlabs",
+  "version": "0.1.0",
+  "apiVersion": 1,
+  "description": "Search employer-published job postings from ATS boards and company career sites by title, location and recency, with a link to each original posting.",
+  "hooks": ["provider", "search"],
+  "requiredEnv": ["HEADCOUNTLABS_API_KEY"],
+  "allowedHosts": ["api.headcountlabs.com"],
+  "skill": "skill.md",
+  "humanInTheLoop": true,
+  "homepage": "https://github.com/charlie12520/career-ops-plugin-headcountlabs"
+}

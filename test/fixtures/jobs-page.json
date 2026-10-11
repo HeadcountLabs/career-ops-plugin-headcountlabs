@@ -1,0 +1,72 @@
+{
+  "data": [
+    {
+      "job_id": "1403cd14-6a80-4510-8d7e-313eaec19a40",
+      "currentness": "current",
+      "stale": true,
+      "company_id": null,
+      "employer_name": { "state": "known", "value": "Netflix, Inc." },
+      "title": { "state": "known", "value": "Site Reliability Engineer L4/L5 - Live Cloud Platform SRE" },
+      "description": { "state": "known", "value": "Netflix is one of the leading entertainment services." },
+      "work_arrangement": { "state": "known", "value": "remote" },
+      "locations": [
+        { "state": "known", "value": { "msa": { "type": "metro", "cbsa_code": "41940", "cbsa_title": "San Jose-Sunnyvale-Santa Clara, CA" }, "city": "Los Gatos", "country": "US", "county_fips": "06085" } }
+      ],
+      "job_first_seen_at": "2026-09-27T20:32:40.676Z",
+      "curated_at": "2026-09-29T17:12:21.251Z",
+      "job_updated_at": "2026-10-11T04:17:32.618Z",
+      "postings": [
+        {
+          "posting_id": "53d54c8a0904f412c63faa14f54fefd53705639918b8d5ad0ebcabe43266bb84",
+          "source": "workday",
+          "source_posting_id": "/job/USA---Remote/Site-Reliability-Engineer-L4-L5---Live-Cloud-Platform-SRE_AJRT44126",
+          "posting_status": "listed",
+          "posting_url": { "state": "known", "value": "https://netflix.wd108.myworkdayjobs.com/Netflix/job/USA---Remote/Site-Reliability-Engineer-L4-L5---Live-Cloud-Platform-SRE_AJRT44126" },
+          "application_url": { "state": "known", "value": "https://netflix.wd108.myworkdayjobs.com/Netflix/job/USA---Remote/Site-Reliability-Engineer-L4-L5---Live-Cloud-Platform-SRE_AJRT44126" },
+          "location": { "state": "known", "value": { "city": "Los Gatos", "remote": true, "country": "US", "countryRaw": "United States of America" } },
+          "pay": { "state": "known", "value": { "max": 720000, "min": 100000, "currency": "USD", "interval": "year" } },
+          "source_posted_at": "2024-12-12T00:00:00.000Z",
+          "first_seen_at": "2026-09-27T20:32:40.676Z",
+          "last_completed_fetch_at": "2026-10-09T13:41:55.071Z",
+          "latest_application_check": null,
+          "attribution": { "required": null, "text": null, "link": null }
+        }
+      ]
+    },
+    {
+      "job_id": "10b0d9af-2a6b-44dc-8cb5-22246637481c",
+      "currentness": "current",
+      "stale": true,
+      "company_id": null,
+      "employer_name": { "state": "known", "value": "Huntress" },
+      "title": { "state": "known", "value": "Staff Software Engineer - ISPM Platform (Ruby/Rails)" },
+      "description": { "state": "known", "value": "Founded in 2015 by former NSA cyber operators, Huntress is a remote-first team." },
+      "work_arrangement": { "state": "known", "value": "remote" },
+      "locations": [
+        { "state": "known", "value": { "msa": null, "country": "US", "county_fips": null } }
+      ],
+      "job_first_seen_at": "2026-09-07T21:45:55.325Z",
+      "curated_at": "2026-09-27T01:44:32.137Z",
+      "job_updated_at": "2026-10-11T03:18:28.165Z",
+      "postings": [
+        {
+          "posting_id": "d5eeb6ce9ecd47d7d3c4053ddd2cf2a6a963b34a14a71cf01afc4d2e353d2d39",
+          "source": "greenhouse",
+          "source_posting_id": "7774957003",
+          "posting_status": "listed",
+          "posting_url": { "state": "known", "value": "https://job-boards.greenhouse.io/huntress/jobs/7774957003" },
+          "application_url": { "state": "known", "value": "https://job-boards.greenhouse.io/huntress/jobs/7774957003" },
+          "location": { "state": "known", "value": { "remote": false, "country": "US" } },
+          "pay": { "state": "known", "value": { "max": 220000, "min": 200000, "currency": "USD", "interval": "unknown" } },
+          "source_posted_at": "2026-06-18T14:28:48.000Z",
+          "first_seen_at": "2026-09-07T21:45:55.325Z",
+          "last_completed_fetch_at": "2026-10-09T15:10:42.944Z",
+          "latest_application_check": null,
+          "attribution": { "required": null, "text": null, "link": null }
+        }
+      ]
+    }
+  ],
+  "next_cursor": null,
+  "snapshot_watermark": "2026-10-11T06:11:36.994Z"
+}
