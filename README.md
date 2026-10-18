@@ -1,3 +1,19 @@
+<p align="center">
+  <a href="https://headcountlabs.com">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset=".github/assets/banner-dark.png">
+      <img alt="Headcount Labs for career-ops: every employer's jobs in your career-ops scan, with a link to each original posting." src=".github/assets/banner-light.png" width="100%">
+    </picture>
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://api.headcountlabs.com/data/signup"><b>Get a free API key</b></a> ·
+  <a href="https://headcountlabs.com/docs/filters/"><b>Filter reference</b></a> ·
+  <a href="https://headcountlabs.com/pricing/"><b>Pricing</b></a> ·
+  <a href="https://github.com/career-ops-hq/career-ops"><b>career-ops</b></a>
+</p>
+
 # career-ops-plugin-headcountlabs
 
 A community plugin for [career-ops](https://github.com/career-ops-hq/career-ops).
@@ -46,7 +62,7 @@ node plugins.mjs enable headcountlabs --confirm  # grants it
 HEADCOUNTLABS_API_KEY=your_key_here
 ```
 
-The free plan allows 1,000 jobs and 250 API requests a month.
+Every organization gets 100,000 records (jobs returned) free each calendar month (UTC), with no card needed. After that, you pay for the records delivered; see [pricing](https://headcountlabs.com/pricing/).
 
 ## Configure
 
@@ -93,7 +109,7 @@ plugins:
 
 ## Staying inside the allowance
 
-Each entry costs one request per scan, and each job returned counts as one job. With the defaults, a daily scan of 8 entries uses about 240 requests a month. The plugin logs what is left after each request.
+Each job returned counts as one record. With the defaults (`max_jobs: 25`), a daily scan of 8 entries returns at most about 6,000 records a month, well inside the free 100,000. The plugin logs what is left after each request.
 
 Keep `since_days` close to how often you scan. A daily scan with `since_days: 2` fetches each new job about twice. A wide window on a broad search fetches the same jobs on every scan.
 
