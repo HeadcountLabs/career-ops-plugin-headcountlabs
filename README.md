@@ -62,7 +62,7 @@ node plugins.mjs enable headcountlabs --confirm  # grants it
 HEADCOUNTLABS_API_KEY=your_key_here
 ```
 
-Every organization gets 1,000,000 records (jobs returned) free each calendar month (UTC), with no card needed. After that, you pay for the records delivered; see [pricing](https://headcountlabs.com/pricing/).
+Every organization gets 1,000,000 records (jobs returned) free each calendar month (UTC), with no card needed. After that, every record delivered costs a flat $0.01 per 1,000; see [pricing](https://headcountlabs.com/pricing/).
 
 ## Configure
 
