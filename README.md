@@ -62,7 +62,7 @@ node plugins.mjs enable headcountlabs --confirm  # grants it
 HEADCOUNTLABS_API_KEY=your_key_here
 ```
 
-Every organization gets 1,000,000 records (jobs returned) free each calendar month (UTC), with no card needed. After that, every record delivered costs a flat $0.01 per 1,000; see [pricing](https://headcountlabs.com/pricing/).
+Every organization gets 100,000 records (jobs returned) free each calendar month (UTC), with no card needed. After that, every record delivered costs a flat $0.01 per 1,000; see [pricing](https://headcountlabs.com/pricing/).
 
 ## Configure
 
@@ -109,7 +109,7 @@ plugins:
 
 ## Staying inside the allowance
 
-Each job returned counts as one record. With the defaults (`max_jobs: 25`), a daily scan of 8 entries returns at most about 6,000 records a month, well inside the free 1,000,000. The plugin logs what is left after each request.
+Each job returned counts as one record. With the defaults (`max_jobs: 25`), a daily scan of 8 entries returns at most about 6,000 records a month, well inside the free 100,000. The plugin logs what is left after each request.
 
 Keep `since_days` close to how often you scan. A daily scan with `since_days: 2` fetches each new job about twice. A wide window on a broad search fetches the same jobs on every scan.
 
