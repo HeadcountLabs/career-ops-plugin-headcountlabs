@@ -128,6 +128,12 @@ node test/behavior.mjs   # request building and job mapping against a recorded A
 
 Both run without the network.
 
+## More from Headcount Labs
+
+- [Headcount Labs](https://headcountlabs.com), the jobs site and [REST API docs](https://headcountlabs.com/docs/).
+- [MCP server](https://headcountlabs.com/mcp/) for Claude, ChatGPT, Codex, Cursor and other AI assistants.
+- [Open dataset](https://huggingface.co/datasets/HeadcountLabs/job-postings) on Hugging Face, CC BY 4.0. Example queries and the schema: [HeadcountLabs/job-postings](https://github.com/HeadcountLabs/job-postings).
+
 ## License
 
 MIT
