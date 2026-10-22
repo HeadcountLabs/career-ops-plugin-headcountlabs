@@ -132,7 +132,7 @@ Both run without the network.
 
 - [Headcount Labs](https://headcountlabs.com), the jobs site and [REST API docs](https://headcountlabs.com/docs/).
 - [MCP server](https://headcountlabs.com/mcp/) for Claude, ChatGPT, Codex, Cursor and other AI assistants.
-- [Open dataset](https://huggingface.co/datasets/HeadcountLabs/job-postings) on Hugging Face, ODbL 1.0. Example queries and the schema: [HeadcountLabs/job-postings](https://github.com/HeadcountLabs/job-postings).
+- [Public dataset subsets](https://huggingface.co/HeadcountLabs) on Hugging Face, ODbL 1.0; the full dataset is coming soon. Example queries and the schema: [HeadcountLabs/job-postings](https://github.com/HeadcountLabs/job-postings).
 
 ## License
 
